@@ -1,6 +1,8 @@
 # calculatorplusplus
 An Open-Source Calculator Project!
 
+THIS IS THE PUBLIC BETA CHANNEL SOURCE CODE
+
 This is a remake of Calc++, an old project of mine.
 I am bringing it back to life now!
 
