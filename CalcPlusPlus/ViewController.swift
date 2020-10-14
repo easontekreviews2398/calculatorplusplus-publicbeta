@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                 numberOnScreen = Double(label.text!)!
                 performingMath = false
             } else if sender.tag == 23 {
-                label.text = "3.141592653589"
+                label.text = "3.14159"
             }
         } else if sender.tag == 17 {
             label.text = String(label.text! + ".")
@@ -63,7 +63,6 @@ class ViewController: UIViewController {
   
     }
     
-    
     @IBAction func operations(_ sender: UIButton) {
         
         if label.text != "" && sender.tag != 11 && sender.tag != 16 {
@@ -71,6 +70,7 @@ class ViewController: UIViewController {
             previousOnScreen = Double(label.text!)!
             operation = sender.tag
             performingMath = true
+            label.text = ""
         }
         else if sender.tag == 16 {
             if operation == 12 {
@@ -87,15 +87,11 @@ class ViewController: UIViewController {
             }
             else if operation == 22 {
                 label.text = String(pow(Double(previousOnScreen),(Double(numberOnScreen))))
-            }
-            else if operation == 27 {
-                sqrt(Double(previousOnScreen))
-            }
-            else if operation == 28 {
-                cbrt(Double(previousOnScreen))
-            }
+            
         } else if sender.tag == 11 {
             allclear()
         }
         }
     }
+    
+}
