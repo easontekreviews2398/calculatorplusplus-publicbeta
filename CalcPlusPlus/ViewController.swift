@@ -89,10 +89,7 @@ class ViewController: UIViewController {
                 label.text = String(pow(Double(previousOnScreen),(Double(numberOnScreen))))
             }
             else if operation == 27 {
-                sqrt(Double(previousOnScreen))
-            }
-            else if operation == 28 {
-                cbrt(Double(previousOnScreen))
+                label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
             }
         } else if sender.tag == 11 {
             allclear()
