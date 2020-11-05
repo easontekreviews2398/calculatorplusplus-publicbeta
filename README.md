@@ -6,6 +6,9 @@ THIS IS THE PUBLIC BETA CHANNEL SOURCE CODE
 This is a remake of Calc++, an old project of mine.
 I am bringing it back to life now!
 
+NO BINARY HAHAHA!
+Compile it yourself. It is not hard!!!
+
 Build Number Scheme:
 Digits 4&5 - Build
 Digit 3 - Subversion (1 means subversion 2, 2 means subversion 3, etc.)
