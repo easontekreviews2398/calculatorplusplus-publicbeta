@@ -13,7 +13,38 @@
 		C54CD93E252B325900AF43E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54CD93C252B325900AF43E4 /* Main.storyboard */; };
 		C54CD940252B325C00AF43E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54CD93F252B325C00AF43E4 /* Assets.xcassets */; };
 		C54CD943252B325C00AF43E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54CD941252B325C00AF43E4 /* LaunchScreen.storyboard */; };
+		C5D6B6CA256BB85300420034 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D6B6C8256BB85300420034 /* Interface.storyboard */; };
+		C5D6B6CC256BB85500420034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D6B6CB256BB85500420034 /* Assets.xcassets */; };
+		C5D6B6D3256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5D6B6D2256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5D6B6D8256BB85600420034 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D6B6D7256BB85600420034 /* InterfaceController.swift */; };
+		C5D6B6DA256BB85600420034 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D6B6D9256BB85600420034 /* ExtensionDelegate.swift */; };
+		C5D6B6DC256BB85600420034 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D6B6DB256BB85600420034 /* ComplicationController.swift */; };
+		C5D6B6DE256BB85600420034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D6B6DD256BB85600420034 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D6B6D4256BB85600420034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54CD92B252B325900AF43E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D6B6D1256BB85600420034;
+			remoteInfo = "CalcPlusPlusWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5D6B6E3256BB85600420034 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C5D6B6D3256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C5414A3C252DE30C00CB72DB /* CalcPlusPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalcPlusPlus.entitlements; sourceTree = "<group>"; };
@@ -25,10 +56,27 @@
 		C54CD93F252B325C00AF43E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C54CD942252B325C00AF43E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C54CD944252B325C00AF43E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D6B6C3256BB85300420034 /* CalcPlusPlusWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcPlusPlusWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D6B6C9256BB85300420034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C5D6B6CB256BB85500420034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D6B6CD256BB85500420034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D6B6D2256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalcPlusPlusWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D6B6D7256BB85600420034 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C5D6B6D9256BB85600420034 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C5D6B6DB256BB85600420034 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C5D6B6DD256BB85600420034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D6B6DF256BB85600420034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C54CD930252B325900AF43E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D6B6CF256BB85600420034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				C54CD935252B325900AF43E4 /* CalcPlusPlus */,
+				C5D6B6C7256BB85300420034 /* CalcPlusPlusWatch WatchKit App */,
+				C5D6B6D6256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension */,
 				C54CD934252B325900AF43E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C54CD933252B325900AF43E4 /* CalcPlusPlus.app */,
+				C5D6B6C3256BB85300420034 /* CalcPlusPlusWatch WatchKit App.app */,
+				C5D6B6D2256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +119,28 @@
 				C54CD944252B325C00AF43E4 /* Info.plist */,
 			);
 			path = CalcPlusPlus;
+			sourceTree = "<group>";
+		};
+		C5D6B6C7256BB85300420034 /* CalcPlusPlusWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6B6C8256BB85300420034 /* Interface.storyboard */,
+				C5D6B6CB256BB85500420034 /* Assets.xcassets */,
+				C5D6B6CD256BB85500420034 /* Info.plist */,
+			);
+			path = "CalcPlusPlusWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C5D6B6D6256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6B6D7256BB85600420034 /* InterfaceController.swift */,
+				C5D6B6D9256BB85600420034 /* ExtensionDelegate.swift */,
+				C5D6B6DB256BB85600420034 /* ComplicationController.swift */,
+				C5D6B6DD256BB85600420034 /* Assets.xcassets */,
+				C5D6B6DF256BB85600420034 /* Info.plist */,
+			);
+			path = "CalcPlusPlusWatch WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,17 +163,57 @@
 			productReference = C54CD933252B325900AF43E4 /* CalcPlusPlus.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C5D6B6C2256BB85300420034 /* CalcPlusPlusWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D6B6E4256BB85600420034 /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit App" */;
+			buildPhases = (
+				C5D6B6C1256BB85300420034 /* Resources */,
+				C5D6B6E3256BB85600420034 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D6B6D5256BB85600420034 /* PBXTargetDependency */,
+			);
+			name = "CalcPlusPlusWatch WatchKit App";
+			productName = "CalcPlusPlusWatch WatchKit App";
+			productReference = C5D6B6C3256BB85300420034 /* CalcPlusPlusWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C5D6B6D1256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D6B6E0256BB85600420034 /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit Extension" */;
+			buildPhases = (
+				C5D6B6CE256BB85600420034 /* Sources */,
+				C5D6B6CF256BB85600420034 /* Frameworks */,
+				C5D6B6D0256BB85600420034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalcPlusPlusWatch WatchKit Extension";
+			productName = "CalcPlusPlusWatch WatchKit Extension";
+			productReference = C5D6B6D2256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C54CD92B252B325900AF43E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					C54CD932252B325900AF43E4 = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					C5D6B6C2256BB85300420034 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C5D6B6D1256BB85600420034 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -117,6 +231,8 @@
 			projectRoot = "";
 			targets = (
 				C54CD932252B325900AF43E4 /* CalcPlusPlus */,
+				C5D6B6C2256BB85300420034 /* CalcPlusPlusWatch WatchKit App */,
+				C5D6B6D1256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +245,23 @@
 				C54CD943252B325C00AF43E4 /* LaunchScreen.storyboard in Resources */,
 				C54CD940252B325C00AF43E4 /* Assets.xcassets in Resources */,
 				C54CD93E252B325900AF43E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D6B6C1256BB85300420034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D6B6CC256BB85500420034 /* Assets.xcassets in Resources */,
+				C5D6B6CA256BB85300420034 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D6B6D0256BB85600420034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D6B6DE256BB85600420034 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +278,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5D6B6CE256BB85600420034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D6B6DA256BB85600420034 /* ExtensionDelegate.swift in Sources */,
+				C5D6B6D8256BB85600420034 /* InterfaceController.swift in Sources */,
+				C5D6B6DC256BB85600420034 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D6B6D5256BB85600420034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D6B6D1256BB85600420034 /* CalcPlusPlusWatch WatchKit Extension */;
+			targetProxy = C5D6B6D4256BB85600420034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C54CD93C252B325900AF43E4 /* Main.storyboard */ = {
@@ -162,6 +313,14 @@
 				C54CD942252B325C00AF43E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C5D6B6C8256BB85300420034 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D6B6C9256BB85300420034 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CalcPlusPlus/CalcPlusPlus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 01313;
+				CURRENT_PROJECT_VERSION = 02001;
 				DEVELOPMENT_TEAM = SED69PSTK5;
 				INFOPLIST_FILE = CalcPlusPlus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalculPlusPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -316,7 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CalcPlusPlus/CalcPlusPlus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 01313;
+				CURRENT_PROJECT_VERSION = 02001;
 				DEVELOPMENT_TEAM = SED69PSTK5;
 				INFOPLIST_FILE = CalcPlusPlus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -325,13 +484,105 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalculPlusPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5D6B6E1256BB85600420034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2001;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		C5D6B6E2256BB85600420034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2001;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		C5D6B6E5256BB85600420034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2001;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				IBSC_MODULE = CalcPlusPlusWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit App/Info.plist";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		C5D6B6E6256BB85600420034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2001;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				IBSC_MODULE = CalcPlusPlusWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit App/Info.plist";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -352,6 +603,24 @@
 			buildConfigurations = (
 				C54CD948252B325C00AF43E4 /* Debug */,
 				C54CD949252B325C00AF43E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D6B6E0256BB85600420034 /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D6B6E1256BB85600420034 /* Debug */,
+				C5D6B6E2256BB85600420034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D6B6E4256BB85600420034 /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D6B6E5256BB85600420034 /* Debug */,
+				C5D6B6E6256BB85600420034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
